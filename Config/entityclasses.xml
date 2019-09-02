@@ -1,0 +1,27 @@
+<configs>
+<append xpath="/entity_classes">
+
+<entity_class name="zombieMaleHazmatRadiated" extends="zombieMaleHazmat">
+	<property name="Tags" value="entity,zombie,walker,feral"/>
+	<!-- Radiated glow and eye color -->
+	<property name="ReplaceMaterial0" value="entities/zombies/materials/feral_radiated"/>
+	<property name="ReplaceMaterial1" value="entities/zombies/materials/rad_eye"/>
+	<property name="ExperienceGain" value="50000"/> <!-- Test XP -->
+	<!-- Loot probability and type -->
+	<property name="LootDropProb" value=".99"/>
+	<property name="LootDropEntityClass" value="EntityLootContainerStrong"/>
+	<!-- harvest settings (copied from animalStag) -->
+	<drop event="Harvest" name="foodRawMeat" count="0" tool_category="Butcher"/> <!-- triggers knife harvesting anim -->
+	<drop event="Harvest" name="foodRawMeat" tag="butcherHarvest" count="30"/>
+	<drop event="Harvest" name="resourceLeather" tag="butcherHarvest" count="9"/>
+	<drop event="Harvest" name="resourceAnimalFat" tag="butcherHarvest" count="4"/>
+	<drop event="Harvest" name="resourceFemur" tag="butcherHarvest" count="3"/>
+	<drop event="Harvest" name="resourceFemur" tag="allToolsHarvest" count="1"/>
+</entity_class>
+
+<entity_class name="vehicleBmx" extends="vehicleBicycle">
+</entity_class>
+
+
+</append>
+</configs>

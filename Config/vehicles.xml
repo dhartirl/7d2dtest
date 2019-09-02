@@ -1,0 +1,14 @@
+<configs>
+<append xpath="/vehicles">
+
+
+	<vehicle name="vehicleBmx" extends="vehicleBicycle">
+		<property name="hopForce" value="25"/>
+		<property name="steerAngleMax" value="40"/>
+		<property name="tiltUpForce" value="12"/>
+		<property name="velocityMax" value="8, 15"/>
+
+    </vehicle>
+
+</append>
+</configs>

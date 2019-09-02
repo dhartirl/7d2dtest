@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<xml>
+	<ModInfo>
+		<Name value="TestMod" />
+		<Description value="Development Testing Mod" />
+		<Author value="kiliki" />
+		<Version value="A17_dev1" />
+	</ModInfo>
+</xml>

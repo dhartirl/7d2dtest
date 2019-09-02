@@ -1,0 +1,14 @@
+<configs>
+<append xpath="/items">
+
+
+<item name="vehicleBmxPlaceable">
+    <property name="Extends" value="vehicleBicyclePlaceable"/>
+	<property class="Action1">
+		<property name="Class" value="SpawnVehicle"/>
+		<property name="Vehicle" value="vehicleBmx"/>
+	</property>
+</item>
+
+</append>
+</configs>
